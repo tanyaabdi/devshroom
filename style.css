@@ -1,0 +1,78 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    font-size: 12px; /* Reduced font size */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.koulsh {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; /* Reduced width */
+    padding: 15px; /* Reduced padding */
+    border-radius: 8px; /* Reduced border-radius */
+}
+
+#uno, #dos {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: 8px 0; /* Reduced margin */
+    font-size: 12px; /* Reduced font size */
+}
+
+#dos {
+    color: hsl(75, 94%, 57%);
+}
+
+#tres {
+    color: white;
+}
+
+.info {
+    display: flex;
+    align-items: center; /* Center-align items in .info */
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50px; /* Reduced radius for a smaller circular look */
+    width: 80px; /* Reduced image size */
+    height: 80px;
+    margin-bottom: 10px; /* Add space below image */
+}
+
+.buttons {
+    border: double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wraps buttons if there are too many */
+    gap: 10px; /* Consistent gap between buttons */
+    width: 200px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 12px; /* Smaller font size */
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    padding: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 12px; /* Reduced font size for links */
+}
