@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 10px;
-    font-size: 12px; /* Reduced font size */
+    font-size: 12px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
@@ -15,17 +15,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px; /* Reduced width */
-    padding: 15px; /* Reduced padding */
-    border-radius: 8px; /* Reduced border-radius */
+    width: 250px; 
+    padding: 15px;
+    border-radius: 8px; 
 }
 
 #uno, #dos {
     color: white;
     font-weight: 700;
     text-align: center;
-    margin: 8px 0; /* Reduced margin */
-    font-size: 12px; /* Reduced font size */
+    margin: 8px 0; 
+    font-size: 12px;
 }
 
 #dos {
@@ -38,16 +38,16 @@ body {
 
 .info {
     display: flex;
-    align-items: center; /* Center-align items in .info */
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
 img {
-    border-radius: 50px; /* Reduced radius for a smaller circular look */
-    width: 80px; /* Reduced image size */
+    border-radius: 50px; 
+    width: 80px; 
     height: 80px;
-    margin-bottom: 10px; /* Add space below image */
+    margin-bottom: 10px;
 }
 
 .buttons {
@@ -55,24 +55,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Wraps buttons if there are too many */
-    gap: 10px; /* Consistent gap between buttons */
+    flex-wrap: wrap; 
+    gap: 8px; 
     width: 200px;
     border-radius: 8px;
     background-color: hsl(0, 0%, 20%);
-    
+    padding: 8px;
 }
 
 button {
     padding: 6px 12px;
-    font-size: 12px; /* Smaller font size */
+    margin-top: 10px;
+    font-size: 12px; 
     background-color: transparent;
     border: none;
 }
 
 a {
-    padding: auto;
+ 
     color: white;
     text-decoration: none;
-    font-size: 12px; /* Reduced font size for links */
+    font-size: 12px; 
 }
